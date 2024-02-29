@@ -93,6 +93,7 @@ int main(){
         if(v[2] == 4){
             printf("Seu Saldo Atual e de: %.2f\n", v[1]); // indice V 1 e de dinheiro
             printf("Seu Estoque Atual e de: %.2f\n", v[4]); // Indice V 4 e de estoque
+            v[0] = 1;
         }
         while(v[2] == 5){
             printf("Bem vindo a area de Vendas a quem deseja vende\n");
